@@ -1,0 +1,63 @@
+html,body{
+   font-family: 'Montserrat', sans-serif; 
+}
+
+h1{
+    border-left: 2px solid green;
+    font-size: 48px;
+    font-weight: 400;
+    padding-left: 20px;
+}
+.main{
+    margin-top: 80px;
+}
+form input{
+    background: #f0f0f0;
+    border: none;
+    border-left: 2px solid #fff;
+    font-size: 36px;
+    padding: 20px;
+    width: 100%;
+    transition: background 2s, border-left 2s;
+}
+
+form input:focus{
+    background: #fff;
+    border-left: 2px solid;
+    box-shadow: none;
+    outline: none;
+}
+
+button.btn{
+    background: transparent;
+    font-size: 36px;
+    padding: 20px 24px;
+    cursor: pointer;
+    color: #00f28f;
+    border: none;
+    transition: background 2s, color 2s;    
+}
+
+button.btn:hover{
+    background: #00f28f;
+    color: white;
+}
+
+.items{
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0px;
+    font-size: 36px;
+    border:none;
+}
+
+li{
+    padding-left: 20px;
+    margin:0px 0px 36px;
+    border: none;
+    border-left: 2px solid green;
+}
+
+li button{
+    margin-left: 10px;
+}
